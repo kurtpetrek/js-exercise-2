@@ -8,10 +8,24 @@
 		<title>JS Exercise 2</title>
 	</head>
 	<body>
-	  <h1>Welcome to JavaScript City!</h1>
-	  
+	  <h1 class="main-header">To Do or Not to Do...ß</h1>
+	  <form class="to-do-form">
+	  	<label for="user-input" >Type your to do:</label>
+	  	<input type="text" name="user-input" id="user-input" placeholder="Enter To Do!">
+	  	<div class="center-text">
+	  		<button type="submit" id="user-submit" class="btn">Add To Do!</button>
+	  	</div>
+	  	
+	  </form>
+
+	  <h2>Your To Do's...</h2>
+
+	  <ul id="to-do-list" class="to-do-list">
+
+	  </ul>
+
 
 	  <!-- Make sure script is loaded at the bottom-->
-		<script src="js/script.js"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
