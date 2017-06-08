@@ -51,7 +51,7 @@ h2 {
 	width: 80%;
 	margin: auto;
 	font-size: 18px;
-	text-align: center;ß
+	text-align: center;
 }
 
 .to-do-list {
@@ -69,16 +69,11 @@ h2 {
 	margin: 10px;
 	background: #01BAEF;
 	font-size: 18px;
-	animation: fade-in forwards .5s;
+	
 }
-
-@keyframes fade-in {
-	0%{
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+.close-to-do {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .center-text {
